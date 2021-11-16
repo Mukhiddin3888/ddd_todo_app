@@ -3,6 +3,8 @@ import 'package:flutter/foundation.dart';
 
 part 'failures.freezed.dart';
 
+
+//Onion, exotic switch
 @freezed
 abstract class ValueFailure<T> with _$ValueFailure<T> {
   const factory ValueFailure.invalidEmail({
